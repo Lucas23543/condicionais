@@ -1,0 +1,15 @@
+"""
+Condições IF, ELIFE e ELSE
+"""
+
+login = str(input("Digite Seu Usuário: "))
+senha = int(input("Digite a Senha: "))
+
+banco_login = "admin"
+banco_senha = 123
+
+if (login == banco_login) and (senha == banco_senha):
+    print("Acesso Permitido")
+
+else:
+    print("Acesso Negado")
